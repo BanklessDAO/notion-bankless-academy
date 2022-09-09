@@ -1,7 +1,7 @@
 import { siteConfig } from './lib/site-config'
 
 const domainConfig = {
-  'whitelabel': {
+  'whitelabel.banklessacademy.com': {
     rootNotionPageId: '8198f1db3f1c490cb2aedf361fc3e416',
     rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
     name: 'Bankless Academy - Whitelabel Platform',
@@ -12,7 +12,7 @@ const domainConfig = {
       '/content-creation-process': '2504d274430b4b4aa28d6171c9b06335'
     },
   },
-  'documentation': {
+  'documentation.banklessacademy.com': {
     rootNotionPageId: '73cae3c0d9124d38babe1f1f9ec5c65f',
     rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
     name: 'Bankless Academy - Documentation',
@@ -23,7 +23,7 @@ const domainConfig = {
       '/generate-utm-links': 'ea6c9d2b537b46d2aa57b7d4df3d93ca',
     },
   },
-  'talent': {
+  'talent.banklessacademy.com': {
     rootNotionPageId: '56d3b0a011fe443aa2a9682f0ca443bb',
     rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
     name: 'Bankless Academy - Talent',
@@ -38,7 +38,7 @@ const domainConfig = {
       '/open-application': 'f6c390f5b0754c85acec7b9bcafa00cb'
     },
   },
-  'sponsors': {
+  'sponsors.banklessacademy.com': {
     rootNotionPageId: '208c77594ddc47ef9ea628c029d29ab0',
     rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
     name: 'Bankless Academy - Sponsors',
@@ -50,7 +50,7 @@ const domainConfig = {
   }
 }
 
-const config = domainConfig[process.env.VERCEL_URL || 'whitelabel']
+const config = (process.env.VERCEL_URL && Object.keys(domainConfig).includes(process.env.VERCEL_URL)) ? domainConfig[process.env.VERCEL_URL] : domainConfig['whitelabel']
 
 export default siteConfig({
   // the site's root Notion page (required)
