@@ -235,6 +235,8 @@ body {
   max-height: 20vmin;
   border-radius: 50%;
   border: 1.5vmin solid #fff;
+  border: none;
+  border-radius: inherit;
 }
 
 .metadata-rhs {

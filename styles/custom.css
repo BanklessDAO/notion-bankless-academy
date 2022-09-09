@@ -10,3 +10,14 @@ a[class^="styles_githubCorner"] {
 .notion-link:hover {
   background-image: linear-gradient(90.68deg, #b06fd8 0.26%, #597aee 102.37%);
 }
+
+.notion-page-icon-hero.notion-page-icon-image {
+  border-radius: inherit;
+  box-shadow: none;
+}
+
+.notion-page-icon-hero.notion-page-icon-image span,
+.notion-page-icon-hero.notion-page-icon-image img,
+.notion-page-icon-hero.notion-page-icon-image .notion-page-icon {
+  border-radius: inherit;
+}
