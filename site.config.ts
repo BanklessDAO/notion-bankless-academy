@@ -50,7 +50,7 @@ const domainConfig = {
   }
 }
 
-const config = (process.env.VERCEL_URL && Object.keys(domainConfig).includes(process.env.VERCEL_URL)) ? domainConfig[process.env.VERCEL_URL] : domainConfig['whitelabel']
+const config = (process.env.VERCEL_URL && Object.keys(domainConfig).includes(process.env.VERCEL_URL)) ? domainConfig[process.env.VERCEL_URL] : domainConfig['whitelabel.banklessacademy.com']
 
 export default siteConfig({
   // the site's root Notion page (required)
