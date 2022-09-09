@@ -19,6 +19,9 @@ import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
 
+// custom style overrides
+import 'styles/custom.css'
+
 import * as React from 'react'
 import * as Fathom from 'fathom-client'
 import type { AppProps } from 'next/app'
@@ -40,6 +43,11 @@ if (!isServer) {
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
+
+  if (typeof window !== 'undefined') {
+    // force dark mode
+    localStorage.setItem('darkMode', 'true')
+  }
 
   React.useEffect(() => {
     function onRouteChangeComplete() {
