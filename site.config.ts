@@ -46,6 +46,7 @@ const domainConfig = {
     author: 'Bankless Academy',
     description: 'Join us in onboarding the next wave of explorers into the Web3 multiverse.',
     pageUrlOverrides: {
+      '/user-journey': '6bf3b997937545e0b99bd3d8273e9c96'
     },
   }
 }
