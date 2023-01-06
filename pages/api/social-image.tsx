@@ -61,7 +61,7 @@ export default async function OGImage(req: NextRequest) {
       >
         {pageInfo.image && (
           <img
-            src={pageInfo.image}
+            src='https://app.banklessacademy.com/images/Notion_Banner.jpg'
             style={{
               position: 'absolute',
               width: '100%',
