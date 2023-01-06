@@ -61,7 +61,7 @@ export default async function OGImage(req: NextRequest) {
       >
         {pageInfo.image && (
           <img
-            src={`https://krux.co/image-proxy.php?url=${encodeURI(pageInfo.image)}`}
+            src={`https://krux.co/image-proxy.php?url=${encodeURIComponent(pageInfo.image)}`}
             style={{
               position: 'absolute',
               width: '100%',
@@ -146,7 +146,7 @@ export default async function OGImage(req: NextRequest) {
             }}
           >
             <img
-              src={`https://krux.co/image-proxy.php?url=${encodeURI(pageInfo.authorImage)}`}
+              src={`https://krux.co/image-proxy.php?url=${encodeURIComponent(pageInfo.authorImage)}`}
               style={{
                 width: '100%',
                 height: '100%'
