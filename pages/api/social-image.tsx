@@ -140,7 +140,7 @@ export default async function OGImage(req: NextRequest) {
               height: 128,
               width: 128,
               display: 'flex',
-              borderRadius: 'inherit',
+              borderRadius: '0',
               border: 'none',
               zIndex: '5'
             }}
