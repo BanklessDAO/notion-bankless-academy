@@ -212,6 +212,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   const title = getBlockTitle(block, recordMap) || site.name
 
+  recordMap.signed_urls = Object.entries(recordMap.signed_urls).reduce((a, [k, v]) => (a[k] = v + `&spaceId=${site.rootNotionSpaceId}`, a), {})
+
   console.log('notion page', {
     isDev: config.isDev,
     title,
