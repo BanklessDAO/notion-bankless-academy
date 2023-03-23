@@ -50,7 +50,7 @@ const domainConfig = {
     },
   },
   'articles.banklessacademy.com': {
-    rootNotionPageId: '208c77594ddc47ef9ea628c029d29ab0',
+    rootNotionPageId: 'e5dc78ef7c314a77906ab5fb3591fba0',
     rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
     name: 'Bankless Academy - Sponsored Articles',
     domain: 'articles.banklessacademy.com',
