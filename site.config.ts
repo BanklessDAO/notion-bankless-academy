@@ -59,6 +59,15 @@ const domainConfig = {
     pageUrlOverrides: {
       '/user-journey': '6bf3b997937545e0b99bd3d8273e9c96'
     },
+  },
+  'workshop.banklessacademy.com': {
+    rootNotionPageId: 'ef58d8d8f21542d5963d2b4c811af3c0',
+    rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
+    name: 'Bankless Academy - Workshop',
+    domain: 'workshop.banklessacademy.com',
+    author: 'Bankless Academy',
+    description: 'Join us in onboarding the next wave of explorers into the Web3 multiverse.',
+    pageUrlOverrides: {},
   }
 }
 
