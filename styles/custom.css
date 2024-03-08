@@ -21,3 +21,7 @@ a[class^="styles_githubCorner"] {
 .notion-page-icon-hero.notion-page-icon-image .notion-page-icon {
   border-radius: inherit;
 }
+
+.notion-collection-page-properties {
+  display: none !important;
+}
