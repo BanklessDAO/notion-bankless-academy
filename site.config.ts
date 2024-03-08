@@ -2,63 +2,72 @@ import { siteConfig } from './lib/site-config'
 
 const domainConfig = {
   'whitelabel.banklessacademy.com': {
-    rootNotionPageId: '8198f1db3f1c490cb2aedf361fc3e416',
-    rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
+    rootNotionPageId: 'e8fb353a977848c4b893729bd1c99cab',
+    rootNotionSpaceId: 'b3891dc2-9a69-4b66-b190-6db4f7cbcdae',
     name: 'Bankless Academy - Whitelabel Platform',
     domain: 'whitelabel.banklessacademy.com',
     author: 'Bankless Academy',
     description: 'Build your own web3 educational platform in no time by leveraging Bankless Academy’s infrastructure.',
     pageUrlOverrides: {
-      '/content-creation-process': '2504d274430b4b4aa28d6171c9b06335'
+      '/content-creation-process': '5d814f9876924a6c802ffe6d2ce59443'
     },
   },
   'documentation.banklessacademy.com': {
-    rootNotionPageId: '73cae3c0d9124d38babe1f1f9ec5c65f',
-    rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
+    rootNotionPageId: '880101fb558c4f988505b813447387a0',
+    rootNotionSpaceId: 'b3891dc2-9a69-4b66-b190-6db4f7cbcdae',
     name: 'Bankless Academy - Documentation',
     domain: 'documentation.banklessacademy.com',
     author: 'Bankless Academy',
     description: 'Documentation about the Bankless Academy web3 learning platform.',
     pageUrlOverrides: {
-      '/generate-utm-links': 'ea6c9d2b537b46d2aa57b7d4df3d93ca',
+      '/generate-utm-links': 'a47da38dfbff4c3fbba046217e25f24c',
     },
   },
   'talent.banklessacademy.com': {
-    rootNotionPageId: '56d3b0a011fe443aa2a9682f0ca443bb',
-    rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
+    rootNotionPageId: '864244614a6a439ab1cee809b11553b3',
+    rootNotionSpaceId: 'b3891dc2-9a69-4b66-b190-6db4f7cbcdae',
     name: 'Bankless Academy - Talent',
     domain: 'talent.banklessacademy.com',
     author: 'Bankless Academy',
     description: 'Join us in onboarding the next wave of explorers into the Web3 multiverse.',
     pageUrlOverrides: {
-      '/product-manager': '65dfe884acb749ef90dd5250f585314d',
-      '/project-manager': 'fa0aa8ba0a034c4cbcc7407b650207e1',
-      '/graphic-designer': 'e6ffab31d7604580b0879ad296bfe6fc',
-      '/web3-developer': '9738fb45eed245cab1f134481afc36fd',
-      '/open-application': 'f6c390f5b0754c85acec7b9bcafa00cb'
+      '/product-manager': 'bf5b080736274c35856a73a1b50ee883',
+      '/project-manager': 'cf326ca0ccd84e40ac785e10e5933591',
+      '/graphic-designer': '78adf4978c544dc3a3fc81d4fe3d0c15',
+      '/web3-developer': 'f5a539bca540402fa89b6d85d871b5c2',
+      '/open-application': '979dbac605af44e291ee0ce82acf0aec'
     },
   },
   'sponsors.banklessacademy.com': {
-    rootNotionPageId: '208c77594ddc47ef9ea628c029d29ab0',
-    rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
+    rootNotionPageId: 'f40db2c23e624594afca70707ccd9d95',
+    rootNotionSpaceId: 'b3891dc2-9a69-4b66-b190-6db4f7cbcdae',
     name: 'Bankless Academy - Lesson Sponsors',
     domain: 'sponsors.banklessacademy.com',
     author: 'Bankless Academy',
     description: 'Join us in onboarding the next wave of explorers into the Web3 multiverse.',
     pageUrlOverrides: {
-      '/user-journey': '6bf3b997937545e0b99bd3d8273e9c96'
+      '/user-journey': 'c484be41e2324abfbcf6a7acc5f37805'
     },
   },
   'articles.banklessacademy.com': {
-    rootNotionPageId: 'e5dc78ef7c314a77906ab5fb3591fba0',
-    rootNotionSpaceId: '99a00784-dfcd-41d5-8941-002db8ff69be',
+    rootNotionPageId: '56bce1b5b63b48a9aa35481830387488',
+    rootNotionSpaceId: 'b3891dc2-9a69-4b66-b190-6db4f7cbcdae',
     name: 'Bankless Academy - Sponsored Articles',
     domain: 'articles.banklessacademy.com',
     author: 'Bankless Academy',
     description: 'Join us in onboarding the next wave of explorers into the Web3 multiverse.',
     pageUrlOverrides: {
-      '/user-journey': '6bf3b997937545e0b99bd3d8273e9c96'
+      '/user-journey': 'c484be41e2324abfbcf6a7acc5f37805'
     },
+  },
+  'workshop.banklessacademy.com': {
+    rootNotionPageId: '9263622389da4b6597db6edde05243f4',
+    rootNotionSpaceId: 'b3891dc2-9a69-4b66-b190-6db4f7cbcdae',
+    name: 'Bankless Academy - Workshop',
+    domain: 'workshop.banklessacademy.com',
+    author: 'Bankless Academy',
+    description: 'Join us in onboarding the next wave of explorers into the Web3 multiverse.',
+    pageUrlOverrides: {},
   }
 }
 
