@@ -68,6 +68,17 @@ const domainConfig = {
     author: 'Bankless Academy',
     description: 'Join us in onboarding the next wave of explorers into the Web3 multiverse.',
     pageUrlOverrides: {},
+  },
+  'notion.banklessacademy.com': {
+    rootNotionPageId: 'e4ed61c5c56d428d9e74260d9bb7b887',
+    rootNotionSpaceId: 'b3891dc2-9a69-4b66-b190-6db4f7cbcdae',
+    name: 'Bankless Academy - Notion',
+    domain: 'notion.banklessacademy.com',
+    author: 'Bankless Academy',
+    description: 'Join us in onboarding the next wave of explorers into the Web3 multiverse.',
+    pageUrlOverrides: {
+      '/bankless-academy-branding-assets': '0e09fd2fc09c4a40bee190bc8862b1de'
+    },
   }
 }
 
